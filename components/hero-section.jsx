@@ -11,9 +11,9 @@ export default function HeroSection() {
       <div>
         <div className="container px-4 mx-auto mt-5 2xl:px-36">
           {/* Container pertama */}
-          <div className="relative flex h-32 px-4 border rounded-lg sm:h-40 lg:h-56 xl:h-64 2xl:h-72 bg-primary-700 ">
+          <div className="relative flex h-32 px-4 border rounded-xl sm:h-40 lg:h-56 xl:h-64 2xl:h-72 bg-primary-700 ">
             {/* Container kedua */}
-            <div className="absolute flex justify-center h-24 px-4 mx-auto transform -translate-x-1/2 bg-white rounded-lg shadow-sm md:shadow-md lg:h-32 2xl:h-40 2xl:w-2/4 justify-items-center sm:w-4/5 -bottom-10 w-72 left-1/2">
+            <div className="absolute flex justify-center h-24 px-4 mx-auto transform -translate-x-1/2 bg-white shadow-sm rounded-xl md:shadow-md lg:h-32 2xl:h-40 2xl:w-2/4 justify-items-center sm:w-4/5 -bottom-10 w-72 left-1/2">
               <div className="grid grid-cols-4 gap-4 md:grid-cols-4 lg:mt-4 2xl:mt-8">
                 <Link href="/station">
                   <StationBox />
