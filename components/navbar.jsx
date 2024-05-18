@@ -2,7 +2,7 @@
 import { Fragment, useState } from "react";
 import { Dialog } from "@headlessui/react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
-import Button from "./button";
+import Button from "./Button";
 import LogoPayo from "./utils/logo";
 import SearchForm from "./utils/search-form";
 import Link from "next/link";
@@ -36,12 +36,12 @@ export default function Navbar() {
 
         <div className="hidden space-x-3 lg:flex lg:flex-1 lg:justify-end">
           <Link href="/login">
-            <Button variant="primarySuble">
+            <Button className="font-semibold" variant="primarySubtle">
               Masuk
             </Button>
           </Link>
           <Link href="/register">
-            <Button variant="primary">Daftar</Button>
+            <Button className="font-semilbold" variant="primary">Daftar</Button>
           </Link>
         </div>
       </nav>

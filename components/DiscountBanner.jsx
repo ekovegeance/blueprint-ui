@@ -1,9 +1,10 @@
 "use client";
 
-import Button from "./button";
+
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import Button from "./Button";
 
 function NextArrow(props) {
     const { className, style, onClick } = props;
@@ -97,7 +98,7 @@ export default function DiscountBanner() {
           Kejar Diskon Spesial
         </div>
         <div>
-          <Button className="px-3 py-2 bg-primary-50 text-primary-700 focus focus:ring-primary-200">
+          <Button className="px-2 py-1 text-xs md:text-sm md:py-2 md:px-4" variant="primarySubtle">
             Lainnya
           </Button>
         </div>

@@ -8,7 +8,7 @@ export default function InputField({ label, placeholder, prefix, suffix, type="t
         {prefix && <span className="mr-2 text-gray-500">{prefix}</span>}
         <input
           type={type}
-          className="flex-1 p-2 outline-none focus:ring-0 bg-slate-50" 
+          className="flex-1 p-2 overflow-hidden outline-none focus:ring-0 bg-slate-50 whitespace-nowrap" 
           placeholder={placeholder} 
         />
         {suffix && <span className="ml-2 text-gray-500">{suffix}</span>}

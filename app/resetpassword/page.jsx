@@ -1,6 +1,6 @@
 import React from 'react'
-import InputField from '@/components/input-field'
-import Button from '@/components/button'
+import InputField from '@/components/InputField'
+import Button from '@/components/Button'
 
 export default function ResetPasswordPage() {
   return (

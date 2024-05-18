@@ -1,7 +1,7 @@
 import React from "react";
 import Link from "next/link";
-import Button from "@/components/button";
-import InputField from "@/components/input-field";
+import Button from "@/components/Button";
+import InputField from "@/components/InputField";
 
 export default function RegisterPage() {
   return (

@@ -1,4 +1,4 @@
-import Button from "./button";
+import Button from "./Button";
 import Card from "./card";
 
 
@@ -11,7 +11,7 @@ export default function CardList() {
         Mau Print
       </div>
       <div>
-        <Button variant="primarySuble">Lainnya</Button>
+        <Button className="px-2 py-1 text-xs md:text-sm md:py-2 md:px-4" variant="primarySubtle">Lainnya</Button>
       </div>
     </div>
     <div className="grid grid-cols-2 gap-2 mt-8 md:gap-4 sm:grid-cols-3 md:grid-cols-4 ">

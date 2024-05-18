@@ -30,10 +30,10 @@ export default function HeroSection() {
               </div>
             </div>
             <div className="flex flex-col w-full mt-3 lg:mt-6 lg:mx-5 2xl:mt-12 2xl:mx-16 sm:w-auto">
-              <h3 className="font-semibold text-white 2xl:text-2xl">
+              <h3 className="font-semibold text-white 2xl:text-xl">
                 Hi, Zakaria Sutomo
               </h3>
-              <p className="text-sm text-white 2xl:text-xl">
+              <p className="text-sm text-white 2xl:text-lg">
                 Mau ngeprint/ cari alat tulis apa hari ini?
               </p>
             </div>
